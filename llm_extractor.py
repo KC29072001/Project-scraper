@@ -1,3 +1,8 @@
+# Contains functions for extracting specific information from the HTML content of web pages.
+# Extracts all columns data for each project row wise.
+
+
+
 import openai
 import requests
 from bs4 import BeautifulSoup

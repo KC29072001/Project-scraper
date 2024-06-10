@@ -1,3 +1,10 @@
+# This is the main script for running the web scraper. It contains the logic for initiating the scraping process, processing the scraped data, and saving it to a file.
+# Key functions:
+# main(): Starts the scraping process.
+# standardize_data(df): Makes columns headings and their type for extracted data 
+# scrape_and_standardize(urls): Scrapes them and standardize the data for each project according to standardize_data df format 
+
+
 import os
 import requests
 import pandas as pd
